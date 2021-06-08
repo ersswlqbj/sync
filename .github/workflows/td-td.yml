@@ -3,8 +3,8 @@ name: TD2TD
 on:
   workflow_dispatch:
   schedule:
-  # 定时任务，每天10:00运行一次
-    - cron: "0 2 * * *"
+  # 定时任务，每天00:00运行一次
+    - cron: "0 16 * * *"
   
 
 jobs:
